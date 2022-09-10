@@ -1,0 +1,19 @@
+FROM rhel8/mysql-80
+LABEL descripption="MySQL image created by Sajjad"
+MAINTAINER "Sajjad Ahmed Paracha"
+USER root
+#ARG
+#VAR
+ENV MYSQL_USER=user1 &&\
+MYSQL_PASSWORD=mypa55 &&\
+MYSQL_DATABASE=items &&\
+MYSQL_ROOT-PASSWORD=ROOTPA55
+
+
+#ENTRYPOINT
+#CMD
+#RUN
+#WORKDIR
+#ADD
+#COPY
+#EXPOSE
